@@ -1,0 +1,4 @@
+<map id="OPLV::AddParty" name="OPLV::AddParty">
+<area shape="rect" id="node1" title="Add a new party to the election." alt="" coords="207,5,327,32"/>
+<area shape="rect" id="node2" href="$classOPLV.html#ac1bbb7899c3ab3ff4447b753fe2cec82" title="Add a new candidate to the election, and party if applicable." alt="" coords="5,5,159,32"/>
+</map>

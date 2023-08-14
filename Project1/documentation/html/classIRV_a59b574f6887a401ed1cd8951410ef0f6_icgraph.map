@@ -1,0 +1,4 @@
+<map id="IRV::find" name="IRV::find">
+<area shape="rect" id="node1" title="A find function that gives index of the integer seek given a vector and length." alt="" coords="199,5,273,32"/>
+<area shape="rect" id="node2" href="$classIRV.html#a9fd03f3a3f5c1e743cc8f0b7a909739d" title="A function given a vote vector transforms it and returns the transformed vector." alt="" coords="5,5,151,32"/>
+</map>

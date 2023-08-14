@@ -1,0 +1,4 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classBallot.html" title="The main class for Ballot." alt="" coords="5,5,65,32"/>
+<area shape="rect" id="node2" href="$classIRVBallot.html" title="The main class for a single IRVBallot." alt="" coords="113,5,196,32"/>
+</map>

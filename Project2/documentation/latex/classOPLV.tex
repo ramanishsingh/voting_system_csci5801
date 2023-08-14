@@ -1,0 +1,200 @@
+\hypertarget{classOPLV}{}\doxysection{O\+P\+LV Class Reference}
+\label{classOPLV}\index{OPLV@{OPLV}}
+
+
+The main class for an \mbox{\hyperlink{classOPLV}{O\+P\+LV}} election.  
+
+
+
+
+Inheritance diagram for O\+P\+LV\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=211pt]{classOPLV__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for O\+P\+LV\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=230pt]{classOPLV__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classOPLV_a5a656c3bf8afc935f80275a96b24f5fc}{O\+P\+LV}} (\mbox{\hyperlink{classAudit}{Audit}} audit\+\_\+)
+\begin{DoxyCompactList}\small\item\em Constructor for an \mbox{\hyperlink{classOPLV}{O\+P\+LV}} election with an audit object. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classOPLV_a21a18b59d8d528d4e03175269e089af9}{Find\+Winner}} (std\+::vector$<$ std\+::string $>$ \&files)
+\begin{DoxyCompactList}\small\item\em Function to calculate the winner of the \mbox{\hyperlink{classOPLV}{O\+P\+LV}} election. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classOPLV_ac589270c2fa4bccca58da4bb783df42f}{Output\+Winners}} (std\+::string filename)
+\begin{DoxyCompactList}\small\item\em Output all candidates that won a seat. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classOPLV_a5b2550c0746babc1029fc512d9093a80}{Calculate\+Quota}} (int ballotnum, int seatnum)
+\begin{DoxyCompactList}\small\item\em Calculate the seat quota for the election. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classOPLVParty}{O\+P\+L\+V\+Party}} $\ast$ \mbox{\hyperlink{classOPLV_a995971d1da33f73ec2982df43dee68f5}{Add\+Party}} (char name\+\_\+)
+\begin{DoxyCompactList}\small\item\em Add a new party to the election. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classOPLV_ac1bbb7899c3ab3ff4447b753fe2cec82}{Add\+Candidate}} (\mbox{\hyperlink{classOPLVCandidate}{O\+P\+L\+V\+Candidate}} $\ast$newcandidate)
+\begin{DoxyCompactList}\small\item\em Add a new candidate to the election, and party if applicable. \end{DoxyCompactList}\item 
+std\+::vector$<$ \mbox{\hyperlink{classOPLVParty}{O\+P\+L\+V\+Party}} $\ast$ $>$ \mbox{\hyperlink{classOPLV_a0aa1f878006073ce81d1dad0d1a9f702}{Get\+Parties}} ()
+\begin{DoxyCompactList}\small\item\em Returns vector of parties. \end{DoxyCompactList}\item 
+std\+::vector$<$ \mbox{\hyperlink{classOPLVCandidate}{O\+P\+L\+V\+Candidate}} $\ast$ $>$ \mbox{\hyperlink{classOPLV_a785e5a3fc31a07c57a3ab1725f984233}{Get\+Winners}} ()
+\begin{DoxyCompactList}\small\item\em Returns vector of winning candidates. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+The main class for an \mbox{\hyperlink{classOPLV}{O\+P\+LV}} election. 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classOPLV_a5a656c3bf8afc935f80275a96b24f5fc}\label{classOPLV_a5a656c3bf8afc935f80275a96b24f5fc}} 
+\index{OPLV@{OPLV}!OPLV@{OPLV}}
+\index{OPLV@{OPLV}!OPLV@{OPLV}}
+\doxysubsubsection{\texorpdfstring{OPLV()}{OPLV()}}
+{\footnotesize\ttfamily O\+P\+L\+V\+::\+O\+P\+LV (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classAudit}{Audit}}}]{audit\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructor for an \mbox{\hyperlink{classOPLV}{O\+P\+LV}} election with an audit object. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em audit\+\_\+} & \mbox{\hyperlink{classAudit}{Audit}} object \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classOPLV_ac1bbb7899c3ab3ff4447b753fe2cec82}\label{classOPLV_ac1bbb7899c3ab3ff4447b753fe2cec82}} 
+\index{OPLV@{OPLV}!AddCandidate@{AddCandidate}}
+\index{AddCandidate@{AddCandidate}!OPLV@{OPLV}}
+\doxysubsubsection{\texorpdfstring{AddCandidate()}{AddCandidate()}}
+{\footnotesize\ttfamily void O\+P\+L\+V\+::\+Add\+Candidate (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classOPLVCandidate}{O\+P\+L\+V\+Candidate}} $\ast$}]{newcandidate }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Add a new candidate to the election, and party if applicable. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em newcandidate} & New candidate \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classOPLV_ac1bbb7899c3ab3ff4447b753fe2cec82_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classOPLV_a995971d1da33f73ec2982df43dee68f5}\label{classOPLV_a995971d1da33f73ec2982df43dee68f5}} 
+\index{OPLV@{OPLV}!AddParty@{AddParty}}
+\index{AddParty@{AddParty}!OPLV@{OPLV}}
+\doxysubsubsection{\texorpdfstring{AddParty()}{AddParty()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classOPLVParty}{O\+P\+L\+V\+Party}}$\ast$ O\+P\+L\+V\+::\+Add\+Party (\begin{DoxyParamCaption}\item[{char}]{name\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Add a new party to the election. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em name\+\_\+} & Name of party \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=321pt]{classOPLV_a995971d1da33f73ec2982df43dee68f5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classOPLV_a5b2550c0746babc1029fc512d9093a80}\label{classOPLV_a5b2550c0746babc1029fc512d9093a80}} 
+\index{OPLV@{OPLV}!CalculateQuota@{CalculateQuota}}
+\index{CalculateQuota@{CalculateQuota}!OPLV@{OPLV}}
+\doxysubsubsection{\texorpdfstring{CalculateQuota()}{CalculateQuota()}}
+{\footnotesize\ttfamily int O\+P\+L\+V\+::\+Calculate\+Quota (\begin{DoxyParamCaption}\item[{int}]{ballotnum,  }\item[{int}]{seatnum }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Calculate the seat quota for the election. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em ballotnum} & Number of ballots \\
+\hline
+\mbox{\texttt{ in}}  & {\em seatnum} & Number of seats \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classOPLV_a21a18b59d8d528d4e03175269e089af9}\label{classOPLV_a21a18b59d8d528d4e03175269e089af9}} 
+\index{OPLV@{OPLV}!FindWinner@{FindWinner}}
+\index{FindWinner@{FindWinner}!OPLV@{OPLV}}
+\doxysubsubsection{\texorpdfstring{FindWinner()}{FindWinner()}}
+{\footnotesize\ttfamily int O\+P\+L\+V\+::\+Find\+Winner (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::string $>$ \&}]{files }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Function to calculate the winner of the \mbox{\hyperlink{classOPLV}{O\+P\+LV}} election. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em filename} & Name of csv file \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{classElection_a033233d2acf9d937d5ad80e334cebabb}{Election}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=329pt]{classOPLV_a21a18b59d8d528d4e03175269e089af9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classOPLV_a0aa1f878006073ce81d1dad0d1a9f702}\label{classOPLV_a0aa1f878006073ce81d1dad0d1a9f702}} 
+\index{OPLV@{OPLV}!GetParties@{GetParties}}
+\index{GetParties@{GetParties}!OPLV@{OPLV}}
+\doxysubsubsection{\texorpdfstring{GetParties()}{GetParties()}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{classOPLVParty}{O\+P\+L\+V\+Party}} $\ast$$>$ O\+P\+L\+V\+::\+Get\+Parties (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Returns vector of parties. 
+
+\mbox{\Hypertarget{classOPLV_a785e5a3fc31a07c57a3ab1725f984233}\label{classOPLV_a785e5a3fc31a07c57a3ab1725f984233}} 
+\index{OPLV@{OPLV}!GetWinners@{GetWinners}}
+\index{GetWinners@{GetWinners}!OPLV@{OPLV}}
+\doxysubsubsection{\texorpdfstring{GetWinners()}{GetWinners()}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{classOPLVCandidate}{O\+P\+L\+V\+Candidate}} $\ast$$>$ O\+P\+L\+V\+::\+Get\+Winners (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Returns vector of winning candidates. 
+
+\mbox{\Hypertarget{classOPLV_ac589270c2fa4bccca58da4bb783df42f}\label{classOPLV_ac589270c2fa4bccca58da4bb783df42f}} 
+\index{OPLV@{OPLV}!OutputWinners@{OutputWinners}}
+\index{OutputWinners@{OutputWinners}!OPLV@{OPLV}}
+\doxysubsubsection{\texorpdfstring{OutputWinners()}{OutputWinners()}}
+{\footnotesize\ttfamily void O\+P\+L\+V\+::\+Output\+Winners (\begin{DoxyParamCaption}\item[{std\+::string}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Output all candidates that won a seat. 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=347pt]{classOPLV_ac589270c2fa4bccca58da4bb783df42f_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/mnt/c/\+Users/\+Joel/\+School/5801/repo-\/\+Team17/\+Project2/src/\mbox{\hyperlink{oplv_8cpp}{oplv.\+cpp}}\end{DoxyCompactItemize}

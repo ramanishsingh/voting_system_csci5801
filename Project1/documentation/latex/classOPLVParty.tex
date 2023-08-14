@@ -1,0 +1,196 @@
+\hypertarget{classOPLVParty}{}\doxysection{O\+P\+L\+V\+Party Class Reference}
+\label{classOPLVParty}\index{OPLVParty@{OPLVParty}}
+
+
+The main class for a single \mbox{\hyperlink{classOPLVParty}{O\+P\+L\+V\+Party}}.  
+
+
+
+
+Collaboration diagram for O\+P\+L\+V\+Party\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=237pt]{classOPLVParty__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classOPLVParty_a3446892bab1f2c392dbb8a165450055a}{O\+P\+L\+V\+Party}} (std\+::string name\+\_\+)
+\begin{DoxyCompactList}\small\item\em Constructor for an \mbox{\hyperlink{classOPLV}{O\+P\+LV}} party with a name. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classOPLVParty_a23b0251662fad7a06e568ebdf6842c07}{Add\+Candidate}} (\mbox{\hyperlink{classOPLVCandidate}{O\+P\+L\+V\+Candidate}} $\ast$new\+Candidate)
+\begin{DoxyCompactList}\small\item\em Adds candidate to the party. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classOPLVParty_a25c4e9a1b7bc1e0fed735e99f69827b5}{Get\+Name}} ()
+\begin{DoxyCompactList}\small\item\em Gets name of party. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classOPLVParty_a7a2237e494b1e9904aefac8af8fef203}{Get\+Seats}} ()
+\begin{DoxyCompactList}\small\item\em Gets number of seats won by party. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classOPLVParty_a367bc4c3edd6ed8bf996056e4db443bc}{Get\+Remaining\+Votes}} ()
+\begin{DoxyCompactList}\small\item\em Gets remaining votes for party. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classOPLVParty_a5a9945c2ec866948741cc1b5be9255af}{Get\+Num\+Candidates}} ()
+\begin{DoxyCompactList}\small\item\em Gets number of candidates in the party. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classOPLVParty_a2a04070100da3a1864e8e770ad2b6a1e}{Set\+Remaining\+Votes}} (int remaining\+Votes\+\_\+)
+\begin{DoxyCompactList}\small\item\em Sets the party\textquotesingle{}s remaining votes to a new count. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classOPLVParty_af31d837e523ea824753d9be70c0b8cbf}{Set\+Seats\+Won}} (int seats\+Won\+\_\+)
+\begin{DoxyCompactList}\small\item\em Sets the number of seats the party won. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classOPLVParty_a6b7a00f5270b28eb722a0ab363607d7a}{Add\+Seat}} ()
+\begin{DoxyCompactList}\small\item\em Increments seats won by party by 1. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classOPLVParty_aff36601cc9175ddbdc6e37ed4c0282ce}{Initialize\+Remaining\+Votes}} ()
+\begin{DoxyCompactList}\small\item\em Initializes remaining votes to the sum of all candidate\textquotesingle{}s votes in the party. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classOPLVParty_aa5aff297f039ed5bdf2827a308a57e37}{Update\+Rank}} (\mbox{\hyperlink{classAudit}{Audit}} audit)
+\begin{DoxyCompactList}\small\item\em Updates the rank of each candidate based on their total votes. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The main class for a single \mbox{\hyperlink{classOPLVParty}{O\+P\+L\+V\+Party}}. 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classOPLVParty_a3446892bab1f2c392dbb8a165450055a}\label{classOPLVParty_a3446892bab1f2c392dbb8a165450055a}} 
+\index{OPLVParty@{OPLVParty}!OPLVParty@{OPLVParty}}
+\index{OPLVParty@{OPLVParty}!OPLVParty@{OPLVParty}}
+\doxysubsubsection{\texorpdfstring{OPLVParty()}{OPLVParty()}}
+{\footnotesize\ttfamily O\+P\+L\+V\+Party\+::\+O\+P\+L\+V\+Party (\begin{DoxyParamCaption}\item[{std\+::string}]{name\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructor for an \mbox{\hyperlink{classOPLV}{O\+P\+LV}} party with a name. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em name\+\_\+} & Name of party \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classOPLVParty_a23b0251662fad7a06e568ebdf6842c07}\label{classOPLVParty_a23b0251662fad7a06e568ebdf6842c07}} 
+\index{OPLVParty@{OPLVParty}!AddCandidate@{AddCandidate}}
+\index{AddCandidate@{AddCandidate}!OPLVParty@{OPLVParty}}
+\doxysubsubsection{\texorpdfstring{AddCandidate()}{AddCandidate()}}
+{\footnotesize\ttfamily void O\+P\+L\+V\+Party\+::\+Add\+Candidate (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classOPLVCandidate}{O\+P\+L\+V\+Candidate}} $\ast$}]{new\+Candidate }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Adds candidate to the party. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em new\+Candidate} & New candidate \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classOPLVParty_a23b0251662fad7a06e568ebdf6842c07_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classOPLVParty_a6b7a00f5270b28eb722a0ab363607d7a}\label{classOPLVParty_a6b7a00f5270b28eb722a0ab363607d7a}} 
+\index{OPLVParty@{OPLVParty}!AddSeat@{AddSeat}}
+\index{AddSeat@{AddSeat}!OPLVParty@{OPLVParty}}
+\doxysubsubsection{\texorpdfstring{AddSeat()}{AddSeat()}}
+{\footnotesize\ttfamily void O\+P\+L\+V\+Party\+::\+Add\+Seat (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Increments seats won by party by 1. 
+
+\mbox{\Hypertarget{classOPLVParty_a25c4e9a1b7bc1e0fed735e99f69827b5}\label{classOPLVParty_a25c4e9a1b7bc1e0fed735e99f69827b5}} 
+\index{OPLVParty@{OPLVParty}!GetName@{GetName}}
+\index{GetName@{GetName}!OPLVParty@{OPLVParty}}
+\doxysubsubsection{\texorpdfstring{GetName()}{GetName()}}
+{\footnotesize\ttfamily std\+::string O\+P\+L\+V\+Party\+::\+Get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets name of party. 
+
+\mbox{\Hypertarget{classOPLVParty_a5a9945c2ec866948741cc1b5be9255af}\label{classOPLVParty_a5a9945c2ec866948741cc1b5be9255af}} 
+\index{OPLVParty@{OPLVParty}!GetNumCandidates@{GetNumCandidates}}
+\index{GetNumCandidates@{GetNumCandidates}!OPLVParty@{OPLVParty}}
+\doxysubsubsection{\texorpdfstring{GetNumCandidates()}{GetNumCandidates()}}
+{\footnotesize\ttfamily int O\+P\+L\+V\+Party\+::\+Get\+Num\+Candidates (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets number of candidates in the party. 
+
+\mbox{\Hypertarget{classOPLVParty_a367bc4c3edd6ed8bf996056e4db443bc}\label{classOPLVParty_a367bc4c3edd6ed8bf996056e4db443bc}} 
+\index{OPLVParty@{OPLVParty}!GetRemainingVotes@{GetRemainingVotes}}
+\index{GetRemainingVotes@{GetRemainingVotes}!OPLVParty@{OPLVParty}}
+\doxysubsubsection{\texorpdfstring{GetRemainingVotes()}{GetRemainingVotes()}}
+{\footnotesize\ttfamily int O\+P\+L\+V\+Party\+::\+Get\+Remaining\+Votes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets remaining votes for party. 
+
+\mbox{\Hypertarget{classOPLVParty_a7a2237e494b1e9904aefac8af8fef203}\label{classOPLVParty_a7a2237e494b1e9904aefac8af8fef203}} 
+\index{OPLVParty@{OPLVParty}!GetSeats@{GetSeats}}
+\index{GetSeats@{GetSeats}!OPLVParty@{OPLVParty}}
+\doxysubsubsection{\texorpdfstring{GetSeats()}{GetSeats()}}
+{\footnotesize\ttfamily int O\+P\+L\+V\+Party\+::\+Get\+Seats (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets number of seats won by party. 
+
+\mbox{\Hypertarget{classOPLVParty_aff36601cc9175ddbdc6e37ed4c0282ce}\label{classOPLVParty_aff36601cc9175ddbdc6e37ed4c0282ce}} 
+\index{OPLVParty@{OPLVParty}!InitializeRemainingVotes@{InitializeRemainingVotes}}
+\index{InitializeRemainingVotes@{InitializeRemainingVotes}!OPLVParty@{OPLVParty}}
+\doxysubsubsection{\texorpdfstring{InitializeRemainingVotes()}{InitializeRemainingVotes()}}
+{\footnotesize\ttfamily void O\+P\+L\+V\+Party\+::\+Initialize\+Remaining\+Votes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Initializes remaining votes to the sum of all candidate\textquotesingle{}s votes in the party. 
+
+\mbox{\Hypertarget{classOPLVParty_a2a04070100da3a1864e8e770ad2b6a1e}\label{classOPLVParty_a2a04070100da3a1864e8e770ad2b6a1e}} 
+\index{OPLVParty@{OPLVParty}!SetRemainingVotes@{SetRemainingVotes}}
+\index{SetRemainingVotes@{SetRemainingVotes}!OPLVParty@{OPLVParty}}
+\doxysubsubsection{\texorpdfstring{SetRemainingVotes()}{SetRemainingVotes()}}
+{\footnotesize\ttfamily void O\+P\+L\+V\+Party\+::\+Set\+Remaining\+Votes (\begin{DoxyParamCaption}\item[{int}]{remaining\+Votes\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Sets the party\textquotesingle{}s remaining votes to a new count. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em remaining\+Votes\+\_\+} & New remaining votes \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classOPLVParty_af31d837e523ea824753d9be70c0b8cbf}\label{classOPLVParty_af31d837e523ea824753d9be70c0b8cbf}} 
+\index{OPLVParty@{OPLVParty}!SetSeatsWon@{SetSeatsWon}}
+\index{SetSeatsWon@{SetSeatsWon}!OPLVParty@{OPLVParty}}
+\doxysubsubsection{\texorpdfstring{SetSeatsWon()}{SetSeatsWon()}}
+{\footnotesize\ttfamily void O\+P\+L\+V\+Party\+::\+Set\+Seats\+Won (\begin{DoxyParamCaption}\item[{int}]{seats\+Won\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Sets the number of seats the party won. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em seats\+Won\+\_\+} & Amount of seats won \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classOPLVParty_aa5aff297f039ed5bdf2827a308a57e37}\label{classOPLVParty_aa5aff297f039ed5bdf2827a308a57e37}} 
+\index{OPLVParty@{OPLVParty}!UpdateRank@{UpdateRank}}
+\index{UpdateRank@{UpdateRank}!OPLVParty@{OPLVParty}}
+\doxysubsubsection{\texorpdfstring{UpdateRank()}{UpdateRank()}}
+{\footnotesize\ttfamily void O\+P\+L\+V\+Party\+::\+Update\+Rank (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classAudit}{Audit}}}]{audit }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Updates the rank of each candidate based on their total votes. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/mnt/c/\+Users/\+Joel/\+School/5801/repo-\/\+Team17/\+Project1/src/\mbox{\hyperlink{oplv__party_8cpp}{oplv\+\_\+party.\+cpp}}\end{DoxyCompactItemize}

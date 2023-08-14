@@ -1,0 +1,19 @@
+<map id="Run" name="Run">
+<area shape="rect" id="node1" title="This method runs the elction according to the election type." alt="" coords="5,309,52,336"/>
+<area shape="rect" id="node2" href="$classAudit.html#a8ad2dd96d5b9d8f599564e429ae7bfd3" title="Function auditPrint that given a string prints to a file obj.auditfile." alt="" coords="385,56,511,83"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#a6040ba756a8ea8a52509339e81fa8d62" title="This method created the time format for unique signifier for summary files." alt="" coords="399,360,497,387"/>
+<area shape="rect" id="node4" href="$classPO.html#ae90574804c403bd79218f1bb21dc7351" title="Function to calculate the winner of the PO election." alt="" coords="143,5,265,32"/>
+<area shape="rect" id="node6" href="$classOPLV.html#a21a18b59d8d528d4e03175269e089af9" title="Function to calculate the winner of the OPLV election." alt="" coords="137,157,271,184"/>
+<area shape="rect" id="node7" href="$classIRV.html#a2c3f7a55cd40659dfba749e015d60d1f" title="A function that given a filename of csv for irv, it finds the winner." alt="" coords="142,107,266,133"/>
+<area shape="rect" id="node10" href="$classCandidate.html#ad97f7ac3672bab8b72b7b7755fa10e0e" title="Gets the candidate&#39;s name." alt="" coords="125,259,283,285"/>
+<area shape="rect" id="node11" href="$classIRVCandidate.html#a46ea01289413693ade39ea8e6fdda6e9" title="A function that returns the number of votes the candidate has according to the sum of the ballots tha..." alt="" coords="100,309,308,336"/>
+<area shape="rect" id="node12" href="$classCandidate.html#ad3f84c5c2bb86b3fe0eaca0d249f3315" title="Gets the candidate&#39;s party." alt="" coords="128,360,280,387"/>
+<area shape="rect" id="node13" href="$classElection.html#aaefebcfcf7f8b3d389c2f47754a4d3df" title=" " alt="" coords="113,411,295,437"/>
+<area shape="rect" id="node14" href="$classIRV.html#a190cbcd9b67a6ec2bdf70db8fc6def64" title="A function that returns the candidate object that is the winner." alt="" coords="144,461,264,488"/>
+<area shape="rect" id="node15" href="$main_8cpp.html#a9a93064aaf12f750fcc3188fd15b066a" title="This method displays the results from the IRV election." alt="" coords="157,512,251,539"/>
+<area shape="rect" id="node16" href="$classPO.html#adaeda4502e622cb99c4f0879c142c770" title="Create media summary file." alt="" coords="149,563,259,589"/>
+<area shape="rect" id="node17" href="$classOPLV.html#ac589270c2fa4bccca58da4bb783df42f" title="Output all candidates that won a seat." alt="" coords="125,613,283,640"/>
+<area shape="rect" id="node5" href="$classPO.html#a3dfb2ad83abfa3e129b8581125725618" title="Add a new candidate to the election." alt="" coords="379,5,517,32"/>
+<area shape="rect" id="node8" href="$classIRV.html#aafc0d53a1f8819c9d71775662d061bf6" title="A function given a ballot (vector vote) and id of said ballot generates a ballot object." alt="" coords="370,157,526,184"/>
+<area shape="rect" id="node9" href="$classIRV.html#a5175f609ae74f4547f8981dfcbcd717d" title="A function given a candidate name and candiate party with id generated a IRVcandidate object to be ad..." alt="" coords="356,107,540,133"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="IRVBallot::Valid" name="IRVBallot::Valid">
+<area shape="rect" id="node1" title="Check if the ballot is valid or not." alt="" coords="5,5,128,32"/>
+<area shape="rect" id="node2" href="$classIRVBallot.html#aa2da9ba27d98a736ab9e90ac0af910c8" title="Get how many preferences are marked by the voter in the ballot." alt="" coords="176,5,345,32"/>
+</map>

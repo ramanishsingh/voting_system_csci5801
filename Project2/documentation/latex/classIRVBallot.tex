@@ -1,0 +1,164 @@
+\hypertarget{classIRVBallot}{}\doxysection{I\+R\+V\+Ballot Class Reference}
+\label{classIRVBallot}\index{IRVBallot@{IRVBallot}}
+
+
+The main class for a single \mbox{\hyperlink{classIRVBallot}{I\+R\+V\+Ballot}}.  
+
+
+
+
+Inheritance diagram for I\+R\+V\+Ballot\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=215pt]{classIRVBallot__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for I\+R\+V\+Ballot\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=215pt]{classIRVBallot__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classIRVBallot_ae83f8031bc05259053f1045fac7cae1a}{I\+R\+V\+Ballot}} (int voter\+Num\+\_\+, std\+::vector$<$ int $>$ transformed\+Vote\+\_\+, int num\+Candidates)
+\begin{DoxyCompactList}\small\item\em Constructor for an \mbox{\hyperlink{classIRVBallot}{I\+R\+V\+Ballot}} with voter\+Num, transformed\+Vote, num\+Candidates. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classIRVBallot_aaddaa6b74d7d88f666d84ec985dc70d2}{Valid}} ()
+\begin{DoxyCompactList}\small\item\em Check if the ballot is valid or not. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classIRVBallot_a299bee0d84b5a90cacbc8981568fea80}{Incrementindex}} ()
+\begin{DoxyCompactList}\small\item\em Increment the priority index of the ballot. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classIRVBallot_ad756f9ebc87439bed76a7ca6084da3c1}{Make\+Invalid}} ()
+\begin{DoxyCompactList}\small\item\em Makes the ballot invalid. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classIRVBallot_aa2da9ba27d98a736ab9e90ac0af910c8}{Get\+Vote\+Size}} ()
+\begin{DoxyCompactList}\small\item\em Get how many preferences are marked by the voter in the ballot. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classIRVBallot_aa5695e52c197a6dcf6b33ae22d399110}{Get\+Current\+Pref}} ()
+\begin{DoxyCompactList}\small\item\em Get the current preference of the ballot. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classIRVBallot_af5b134621f10d3e2bd4d621cb1c95980}{Get\+Index}} ()
+\begin{DoxyCompactList}\small\item\em Gets the priority\+Index of the ballot. \end{DoxyCompactList}\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{classIRVBallot_ab4929859e5ad25a4eebcdbfa568b8c54}{Get\+Transformed\+Vote}} ()
+\begin{DoxyCompactList}\small\item\em Gets the transformed vote of the ballot. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+The main class for a single \mbox{\hyperlink{classIRVBallot}{I\+R\+V\+Ballot}}. 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classIRVBallot_ae83f8031bc05259053f1045fac7cae1a}\label{classIRVBallot_ae83f8031bc05259053f1045fac7cae1a}} 
+\index{IRVBallot@{IRVBallot}!IRVBallot@{IRVBallot}}
+\index{IRVBallot@{IRVBallot}!IRVBallot@{IRVBallot}}
+\doxysubsubsection{\texorpdfstring{IRVBallot()}{IRVBallot()}}
+{\footnotesize\ttfamily I\+R\+V\+Ballot\+::\+I\+R\+V\+Ballot (\begin{DoxyParamCaption}\item[{int}]{voter\+Num\+\_\+,  }\item[{std\+::vector$<$ int $>$}]{transformed\+Vote\+\_\+,  }\item[{int}]{num\+Candidates }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructor for an \mbox{\hyperlink{classIRVBallot}{I\+R\+V\+Ballot}} with voter\+Num, transformed\+Vote, num\+Candidates. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em voter\+Num\+\_\+} & voter\+Id of the candidate \\
+\hline
+\mbox{\texttt{ in}}  & {\em transformed\+Vote\+\_\+} & transformed vote, we take the vote of each ballot and transform it into transformed vote \\
+\hline
+\mbox{\texttt{ in}}  & {\em num\+Candidates} & Number of Candidates in the election \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classIRVBallot_aa5695e52c197a6dcf6b33ae22d399110}\label{classIRVBallot_aa5695e52c197a6dcf6b33ae22d399110}} 
+\index{IRVBallot@{IRVBallot}!GetCurrentPref@{GetCurrentPref}}
+\index{GetCurrentPref@{GetCurrentPref}!IRVBallot@{IRVBallot}}
+\doxysubsubsection{\texorpdfstring{GetCurrentPref()}{GetCurrentPref()}}
+{\footnotesize\ttfamily int I\+R\+V\+Ballot\+::\+Get\+Current\+Pref (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Get the current preference of the ballot. 
+
+\mbox{\Hypertarget{classIRVBallot_af5b134621f10d3e2bd4d621cb1c95980}\label{classIRVBallot_af5b134621f10d3e2bd4d621cb1c95980}} 
+\index{IRVBallot@{IRVBallot}!GetIndex@{GetIndex}}
+\index{GetIndex@{GetIndex}!IRVBallot@{IRVBallot}}
+\doxysubsubsection{\texorpdfstring{GetIndex()}{GetIndex()}}
+{\footnotesize\ttfamily int I\+R\+V\+Ballot\+::\+Get\+Index (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the priority\+Index of the ballot. 
+
+\mbox{\Hypertarget{classIRVBallot_ab4929859e5ad25a4eebcdbfa568b8c54}\label{classIRVBallot_ab4929859e5ad25a4eebcdbfa568b8c54}} 
+\index{IRVBallot@{IRVBallot}!GetTransformedVote@{GetTransformedVote}}
+\index{GetTransformedVote@{GetTransformedVote}!IRVBallot@{IRVBallot}}
+\doxysubsubsection{\texorpdfstring{GetTransformedVote()}{GetTransformedVote()}}
+{\footnotesize\ttfamily std\+::vector$<$int$>$ I\+R\+V\+Ballot\+::\+Get\+Transformed\+Vote (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the transformed vote of the ballot. 
+
+\mbox{\Hypertarget{classIRVBallot_aa2da9ba27d98a736ab9e90ac0af910c8}\label{classIRVBallot_aa2da9ba27d98a736ab9e90ac0af910c8}} 
+\index{IRVBallot@{IRVBallot}!GetVoteSize@{GetVoteSize}}
+\index{GetVoteSize@{GetVoteSize}!IRVBallot@{IRVBallot}}
+\doxysubsubsection{\texorpdfstring{GetVoteSize()}{GetVoteSize()}}
+{\footnotesize\ttfamily int I\+R\+V\+Ballot\+::\+Get\+Vote\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Get how many preferences are marked by the voter in the ballot. 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=335pt]{classIRVBallot_aa2da9ba27d98a736ab9e90ac0af910c8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classIRVBallot_a299bee0d84b5a90cacbc8981568fea80}\label{classIRVBallot_a299bee0d84b5a90cacbc8981568fea80}} 
+\index{IRVBallot@{IRVBallot}!Incrementindex@{Incrementindex}}
+\index{Incrementindex@{Incrementindex}!IRVBallot@{IRVBallot}}
+\doxysubsubsection{\texorpdfstring{Incrementindex()}{Incrementindex()}}
+{\footnotesize\ttfamily void I\+R\+V\+Ballot\+::\+Incrementindex (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Increment the priority index of the ballot. 
+
+\mbox{\Hypertarget{classIRVBallot_ad756f9ebc87439bed76a7ca6084da3c1}\label{classIRVBallot_ad756f9ebc87439bed76a7ca6084da3c1}} 
+\index{IRVBallot@{IRVBallot}!MakeInvalid@{MakeInvalid}}
+\index{MakeInvalid@{MakeInvalid}!IRVBallot@{IRVBallot}}
+\doxysubsubsection{\texorpdfstring{MakeInvalid()}{MakeInvalid()}}
+{\footnotesize\ttfamily void I\+R\+V\+Ballot\+::\+Make\+Invalid (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Makes the ballot invalid. 
+
+\mbox{\Hypertarget{classIRVBallot_aaddaa6b74d7d88f666d84ec985dc70d2}\label{classIRVBallot_aaddaa6b74d7d88f666d84ec985dc70d2}} 
+\index{IRVBallot@{IRVBallot}!Valid@{Valid}}
+\index{Valid@{Valid}!IRVBallot@{IRVBallot}}
+\doxysubsubsection{\texorpdfstring{Valid()}{Valid()}}
+{\footnotesize\ttfamily bool I\+R\+V\+Ballot\+::\+Valid (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Check if the ballot is valid or not. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=335pt]{classIRVBallot_aaddaa6b74d7d88f666d84ec985dc70d2_cgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/mnt/c/\+Users/\+Joel/\+School/5801/repo-\/\+Team17/\+Project2/src/\mbox{\hyperlink{irv__ballot_8cpp}{irv\+\_\+ballot.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,8 @@
+<map id="Audit::auditPrint" name="Audit::auditPrint">
+<area shape="rect" id="node1" title="Function auditPrint that given a string prints to a file obj.auditfile." alt="" coords="417,81,544,108"/>
+<area shape="rect" id="node2" href="$classPO.html#ae90574804c403bd79218f1bb21dc7351" title="Function to calculate the winner of the PO election." alt="" coords="225,5,347,32"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#a094efc9faacc20ebae4d1a5d5e9bc3b6" title="This method runs the elction according to the election type." alt="" coords="108,56,155,83"/>
+<area shape="rect" id="node5" href="$classIRV.html#a2c3f7a55cd40659dfba749e015d60d1f" title="A function that given a filename of csv for irv, it finds the winner." alt="" coords="224,107,348,133"/>
+<area shape="rect" id="node6" href="$classIRV.html#ad5b4e39fc74d837c03da793a289d2bd2" title="A function that redistributes the votes of the eleminated candidate given a the eliminated candidate ..." alt="" coords="203,157,369,184"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="This is the main. Drives V&#45;Pal&#39;s system." alt="" coords="5,56,60,83"/>
+</map>

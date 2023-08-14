@@ -1,0 +1,4 @@
+<map id="IRV::RedistributeVotes" name="IRV::RedistributeVotes">
+<area shape="rect" id="node1" title="A function that redistributes the votes of the eleminated candidate given a the eliminated candidate ..." alt="" coords="5,5,172,32"/>
+<area shape="rect" id="node2" href="$classAudit.html#a8ad2dd96d5b9d8f599564e429ae7bfd3" title="Function auditPrint that given a string prints to a file obj.auditfile." alt="" coords="220,5,347,32"/>
+</map>

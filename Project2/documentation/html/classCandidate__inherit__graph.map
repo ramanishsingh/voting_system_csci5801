@@ -1,0 +1,6 @@
+<map id="Candidate" name="Candidate">
+<area shape="rect" id="node1" title="The main class for a Candidate." alt="" coords="191,5,328,127"/>
+<area shape="rect" id="node2" href="$classIRVCandidate.html" title="the main class for IRVCandidate" alt="" coords="5,189,156,369"/>
+<area shape="rect" id="node3" href="$classOPLVCandidate.html" title="The main class for a single OPLVCandidate." alt="" coords="180,175,339,384"/>
+<area shape="rect" id="node4" href="$classPOCandidate.html" title="The main class for a single POCandidate." alt="" coords="363,204,500,355"/>
+</map>

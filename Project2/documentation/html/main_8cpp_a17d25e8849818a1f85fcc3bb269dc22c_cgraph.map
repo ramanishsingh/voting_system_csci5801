@@ -1,0 +1,14 @@
+<map id="Run" name="Run">
+<area shape="rect" id="node1" title="This method runs the elction according to the election type." alt="" coords="5,259,52,285"/>
+<area shape="rect" id="node2" href="$classAudit.html#a8ad2dd96d5b9d8f599564e429ae7bfd3" title="Function auditPrint that given a string prints to a file obj.auditfile." alt="" coords="141,5,267,32"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#a6040ba756a8ea8a52509339e81fa8d62" title="This method created the time format for unique signifier for summary files." alt="" coords="356,259,455,285"/>
+<area shape="rect" id="node4" href="$classOPLV.html#a68423017f678ad3b5c9c6d5e432e9e1d" title="Function to calculate the winner of the OPLV election." alt="" coords="137,107,271,133"/>
+<area shape="rect" id="node5" href="$classIRV.html#a206986dfeb126b6155bb132418518076" title="A function that given a filename of csv for irv, it finds the winner." alt="" coords="142,157,266,184"/>
+<area shape="rect" id="node6" href="$classCandidate.html#ad97f7ac3672bab8b72b7b7755fa10e0e" title="Gets the candidate&#39;s name." alt="" coords="125,208,283,235"/>
+<area shape="rect" id="node7" href="$classIRVCandidate.html#a46ea01289413693ade39ea8e6fdda6e9" title="A function that returns the number of votes the candidate has according to the sum of the ballots tha..." alt="" coords="100,259,308,285"/>
+<area shape="rect" id="node8" href="$classCandidate.html#ad3f84c5c2bb86b3fe0eaca0d249f3315" title="Gets the candidate&#39;s party." alt="" coords="128,309,280,336"/>
+<area shape="rect" id="node9" href="$classElection.html#aaefebcfcf7f8b3d389c2f47754a4d3df" title=" " alt="" coords="113,360,295,387"/>
+<area shape="rect" id="node10" href="$classIRV.html#a190cbcd9b67a6ec2bdf70db8fc6def64" title="A function that returns the candidate object that is the winner." alt="" coords="144,411,264,437"/>
+<area shape="rect" id="node11" href="$main_8cpp.html#a9a93064aaf12f750fcc3188fd15b066a" title="This method displays the results from the IRV election." alt="" coords="157,461,251,488"/>
+<area shape="rect" id="node12" href="$classOPLV.html#ac589270c2fa4bccca58da4bb783df42f" title="Output all candidates that won a seat." alt="" coords="125,512,283,539"/>
+</map>

@@ -1,0 +1,104 @@
+\hypertarget{classElection}{}\doxysection{Election Class Reference}
+\label{classElection}\index{Election@{Election}}
+
+
+The election header for the \mbox{\hyperlink{classIRV}{I\+RV}} and \mbox{\hyperlink{classOPLV}{O\+P\+LV}} election classes.  
+
+
+
+
+{\ttfamily \#include $<$election.\+h$>$}
+
+
+
+Inheritance diagram for Election\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classElection__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Election\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=230pt]{classElection__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual int \mbox{\hyperlink{classElection_a033233d2acf9d937d5ad80e334cebabb}{Find\+Winner}} (std\+::vector$<$ std\+::string $>$ \&files)=0
+\begin{DoxyCompactList}\small\item\em this virtual method will be defined by the \mbox{\hyperlink{classIRV}{I\+RV}} and \mbox{\hyperlink{classOPLV}{O\+P\+LV}} classes. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classElection_a9a00cc34b7cedda8efc85be574381230}\label{classElection_a9a00cc34b7cedda8efc85be574381230}} 
+std\+::string \mbox{\hyperlink{classElection_a9a00cc34b7cedda8efc85be574381230}{Get\+Typeof\+Election}} ()
+\begin{DoxyCompactList}\small\item\em gets the election type \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classElection_afcc43d08161f81adfe38d0e7f7231a1b}\label{classElection_afcc43d08161f81adfe38d0e7f7231a1b}} 
+int \mbox{\hyperlink{classElection_afcc43d08161f81adfe38d0e7f7231a1b}{Get\+Total\+Candidates}} ()
+\begin{DoxyCompactList}\small\item\em get the total number of candidates in the election \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classElection_aaefebcfcf7f8b3d389c2f47754a4d3df}{Get\+Total\+Ballots}} ()
+\item 
+\mbox{\Hypertarget{classElection_ac3bdd9c16e36c67fafeb70b613a4a29b}\label{classElection_ac3bdd9c16e36c67fafeb70b613a4a29b}} 
+void {\bfseries Set\+Total\+Ballots} (int num)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classElection_ae59abe190cee697b4f7987b9643605b2}\label{classElection_ae59abe190cee697b4f7987b9643605b2}} 
+std\+::string {\bfseries type\+Of\+Election}
+\item 
+\mbox{\Hypertarget{classElection_a16160685b5c2ccf24644d2403170f25b}\label{classElection_a16160685b5c2ccf24644d2403170f25b}} 
+int {\bfseries total\+Ballots}
+\item 
+\mbox{\Hypertarget{classElection_a31cf7978329a3c8667683f9b0c978c02}\label{classElection_a31cf7978329a3c8667683f9b0c978c02}} 
+int {\bfseries total\+Candidates}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The election header for the \mbox{\hyperlink{classIRV}{I\+RV}} and \mbox{\hyperlink{classOPLV}{O\+P\+LV}} election classes. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classElection_a033233d2acf9d937d5ad80e334cebabb}\label{classElection_a033233d2acf9d937d5ad80e334cebabb}} 
+\index{Election@{Election}!FindWinner@{FindWinner}}
+\index{FindWinner@{FindWinner}!Election@{Election}}
+\doxysubsubsection{\texorpdfstring{FindWinner()}{FindWinner()}}
+{\footnotesize\ttfamily virtual int Election\+::\+Find\+Winner (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::string $>$ \&}]{files }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+this virtual method will be defined by the \mbox{\hyperlink{classIRV}{I\+RV}} and \mbox{\hyperlink{classOPLV}{O\+P\+LV}} classes. 
+
+It drives the election process for them individually.
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em vector} & of file names needed to read csv file \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classOPLV_a21a18b59d8d528d4e03175269e089af9}{O\+P\+LV}}.
+
+\mbox{\Hypertarget{classElection_aaefebcfcf7f8b3d389c2f47754a4d3df}\label{classElection_aaefebcfcf7f8b3d389c2f47754a4d3df}} 
+\index{Election@{Election}!GetTotalBallots@{GetTotalBallots}}
+\index{GetTotalBallots@{GetTotalBallots}!Election@{Election}}
+\doxysubsubsection{\texorpdfstring{GetTotalBallots()}{GetTotalBallots()}}
+{\footnotesize\ttfamily int Election\+::\+Get\+Total\+Ballots (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+get the number of ballots in the election Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classElection_aaefebcfcf7f8b3d389c2f47754a4d3df_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/mnt/c/\+Users/\+Joel/\+School/5801/repo-\/\+Team17/\+Project2/src/\mbox{\hyperlink{election_8h}{election.\+h}}\end{DoxyCompactItemize}

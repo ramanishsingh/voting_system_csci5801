@@ -1,0 +1,5 @@
+<map id="Candidate::GetParty" name="Candidate::GetParty">
+<area shape="rect" id="node1" title="Gets the candidate&#39;s party." alt="" coords="203,5,355,32"/>
+<area shape="rect" id="node2" href="$main_8cpp.html#a17d25e8849818a1f85fcc3bb269dc22c" title="This method runs the elction according to the election type." alt="" coords="108,5,155,32"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="This is the main. Drives V&#45;Pal&#39;s system." alt="" coords="5,5,60,32"/>
+</map>

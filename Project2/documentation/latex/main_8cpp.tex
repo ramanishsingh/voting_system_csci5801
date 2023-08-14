@@ -1,0 +1,153 @@
+\hypertarget{main_8cpp}{}\doxysection{/mnt/c/\+Users/\+Joel/\+School/5801/repo-\/\+Team17/\+Project2/src/main.cpp File Reference}
+\label{main_8cpp}\index{/mnt/c/Users/Joel/School/5801/repo-\/Team17/Project2/src/main.cpp@{/mnt/c/Users/Joel/School/5801/repo-\/Team17/Project2/src/main.cpp}}
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$ctime$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$chrono$>$}\newline
+{\ttfamily \#include \char`\"{}irv.\+cpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}oplv.\+cpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}po.\+cpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}audit.\+h\char`\"{}}\newline
+Include dependency graph for main.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{main_8cpp_a24764acc033395555ea00c46edadbabe}{Find\+Type}} (string filename)
+\begin{DoxyCompactList}\small\item\em This method finds the type of election for processing. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{main_8cpp_a6040ba756a8ea8a52509339e81fa8d62}{Create\+Time}} ()
+\begin{DoxyCompactList}\small\item\em This method created the time format for unique signifier for summary files. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a9a93064aaf12f750fcc3188fd15b066a}{I\+R\+V\+Display}} (string person, char party, int votes, int ballots)
+\begin{DoxyCompactList}\small\item\em This method displays the results from the \mbox{\hyperlink{classIRV}{I\+RV}} election. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a094efc9faacc20ebae4d1a5d5e9bc3b6}{Run}} (string type, std\+::vector$<$ string $>$ \&files)
+\begin{DoxyCompactList}\small\item\em This method runs the elction according to the election type. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\begin{DoxyCompactList}\small\item\em This is the main. Drives V-\/\+Pal\textquotesingle{}s system. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This is the main entrance for V-\/\+Pal\textquotesingle{}s program. It will read in the csv ballot and determine it\textquotesingle{}s validity for processing. 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{main_8cpp_a6040ba756a8ea8a52509339e81fa8d62}\label{main_8cpp_a6040ba756a8ea8a52509339e81fa8d62}} 
+\index{main.cpp@{main.cpp}!CreateTime@{CreateTime}}
+\index{CreateTime@{CreateTime}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{CreateTime()}{CreateTime()}}
+{\footnotesize\ttfamily string Create\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This method created the time format for unique signifier for summary files. 
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp_a6040ba756a8ea8a52509339e81fa8d62_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8cpp_a24764acc033395555ea00c46edadbabe}\label{main_8cpp_a24764acc033395555ea00c46edadbabe}} 
+\index{main.cpp@{main.cpp}!FindType@{FindType}}
+\index{FindType@{FindType}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{FindType()}{FindType()}}
+{\footnotesize\ttfamily string Find\+Type (\begin{DoxyParamCaption}\item[{string}]{filename }\end{DoxyParamCaption})}
+
+
+
+This method finds the type of election for processing. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em filename} & needed to read csv file \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=216pt]{main_8cpp_a24764acc033395555ea00c46edadbabe_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8cpp_a9a93064aaf12f750fcc3188fd15b066a}\label{main_8cpp_a9a93064aaf12f750fcc3188fd15b066a}} 
+\index{main.cpp@{main.cpp}!IRVDisplay@{IRVDisplay}}
+\index{IRVDisplay@{IRVDisplay}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{IRVDisplay()}{IRVDisplay()}}
+{\footnotesize\ttfamily void I\+R\+V\+Display (\begin{DoxyParamCaption}\item[{string}]{person,  }\item[{char}]{party,  }\item[{int}]{votes,  }\item[{int}]{ballots }\end{DoxyParamCaption})}
+
+
+
+This method displays the results from the \mbox{\hyperlink{classIRV}{I\+RV}} election. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em person,party,votes,and} & ballots are taken in to display information \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=260pt]{main_8cpp_a9a93064aaf12f750fcc3188fd15b066a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=298pt]{main_8cpp_a9a93064aaf12f750fcc3188fd15b066a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{main.cpp@{main.cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+This is the main. Drives V-\/\+Pal\textquotesingle{}s system. 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{main_8cpp_a094efc9faacc20ebae4d1a5d5e9bc3b6}\label{main_8cpp_a094efc9faacc20ebae4d1a5d5e9bc3b6}} 
+\index{main.cpp@{main.cpp}!Run@{Run}}
+\index{Run@{Run}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{Run()}{Run()}}
+{\footnotesize\ttfamily void Run (\begin{DoxyParamCaption}\item[{string}]{type,  }\item[{std\+::vector$<$ string $>$ \&}]{files }\end{DoxyParamCaption})}
+
+
+
+This method runs the elction according to the election type. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em type} & and filename are taken in to process election \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp_a094efc9faacc20ebae4d1a5d5e9bc3b6_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=192pt]{main_8cpp_a094efc9faacc20ebae4d1a5d5e9bc3b6_icgraph}
+\end{center}
+\end{figure}

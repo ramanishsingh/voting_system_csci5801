@@ -1,0 +1,5 @@
+<map id="Election" name="Election">
+<area shape="rect" id="node1" title="The election header for the IRV and OPLV election classes." alt="" coords="101,5,276,171"/>
+<area shape="rect" id="node2" href="$classIRV.html" title="Main class for IRV election." alt="" coords="5,219,185,457"/>
+<area shape="rect" id="node3" href="$classOPLV.html" title="The main class for an OPLV election." alt="" coords="210,248,357,428"/>
+</map>

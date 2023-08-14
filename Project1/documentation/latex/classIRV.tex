@@ -1,0 +1,269 @@
+\hypertarget{classIRV}{}\doxysection{I\+RV Class Reference}
+\label{classIRV}\index{IRV@{IRV}}
+
+
+Main class for \mbox{\hyperlink{classIRV}{I\+RV}} election.  
+
+
+
+
+Inheritance diagram for I\+RV\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=215pt]{classIRV__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for I\+RV\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=232pt]{classIRV__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classIRV_a2ae904bde1d61347dac531bda788be76}\label{classIRV_a2ae904bde1d61347dac531bda788be76}} 
+{\bfseries I\+RV} (\mbox{\hyperlink{classAudit}{Audit}} audit\+\_\+)
+\item 
+int \mbox{\hyperlink{classIRV_a59b574f6887a401ed1cd8951410ef0f6}{find}} (std\+::vector$<$ int $>$arr, int len, int seek)
+\begin{DoxyCompactList}\small\item\em A find function that gives index of the integer seek given a vector and length. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classIRV_a912ea1e8e327b98b626ca48c19f7c406}{Sum\+Vector}} (std\+::vector$<$ int $>$vec)
+\begin{DoxyCompactList}\small\item\em A function that returns the sum of all elements of a vector. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classIRV_a206986dfeb126b6155bb132418518076}{Find\+Winner}} (string filename)
+\begin{DoxyCompactList}\small\item\em A function that given a filename of csv for irv, it finds the winner. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classIRVCandidate}{I\+R\+V\+Candidate}} \mbox{\hyperlink{classIRV_a190cbcd9b67a6ec2bdf70db8fc6def64}{Get\+Winner}} ()
+\begin{DoxyCompactList}\small\item\em A function that returns the candidate object that is the winner. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classIRV_a7710af85c899fdb3be8a00836932380b}{Tie\+Breaker}} ()
+\begin{DoxyCompactList}\small\item\em A function that resolved any ties if there are any during the process of irv election. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classIRV_ad5b4e39fc74d837c03da793a289d2bd2}{Redistribute\+Votes}} (int candidate\+\_\+id\+\_\+remove)
+\begin{DoxyCompactList}\small\item\em A function that redistributes the votes of the eleminated candidate given a the eliminated candidate id. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classIRV_a94769dd76c15aaf9126a67d2577a34e0}{Add\+Ballot}} (\mbox{\hyperlink{classIRVBallot}{I\+R\+V\+Ballot}} $\ast$new\+Ballot)
+\begin{DoxyCompactList}\small\item\em A function that adds a ballot to the ballot vector given a ballot object. \end{DoxyCompactList}\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{classIRV_a9fd03f3a3f5c1e743cc8f0b7a909739d}{Transform\+Vote}} (std\+::vector$<$ int $>$vote)
+\begin{DoxyCompactList}\small\item\em A function given a vote vector transforms it and returns the transformed vector. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classIRV_aafc0d53a1f8819c9d71775662d061bf6}{Generate\+Ballots}} (std\+::vector$<$ int $>$vote, int id)
+\begin{DoxyCompactList}\small\item\em A function given a ballot (vector vote) and id of said ballot generates a ballot object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classIRV_a5175f609ae74f4547f8981dfcbcd717d}{Generate\+Candidates}} (string cand, char p, int id)
+\begin{DoxyCompactList}\small\item\em A function given a candidate name and candiate party with id generated a I\+R\+Vcandidate object to be added to candidates vector. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classIRV_aa8ae8f8f28bf1cbb40d3fbb46317fbbf}{Update\+Candidates}} ()
+\begin{DoxyCompactList}\small\item\em A function that updates each ballots for each of thier respective candidates. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Main class for \mbox{\hyperlink{classIRV}{I\+RV}} election. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classIRV_a94769dd76c15aaf9126a67d2577a34e0}\label{classIRV_a94769dd76c15aaf9126a67d2577a34e0}} 
+\index{IRV@{IRV}!AddBallot@{AddBallot}}
+\index{AddBallot@{AddBallot}!IRV@{IRV}}
+\doxysubsubsection{\texorpdfstring{AddBallot()}{AddBallot()}}
+{\footnotesize\ttfamily void I\+R\+V\+::\+Add\+Ballot (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classIRVBallot}{I\+R\+V\+Ballot}} $\ast$}]{new\+Ballot }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+A function that adds a ballot to the ballot vector given a ballot object. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em new\+Ballot} & a ballot object to be added \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classIRV_a59b574f6887a401ed1cd8951410ef0f6}\label{classIRV_a59b574f6887a401ed1cd8951410ef0f6}} 
+\index{IRV@{IRV}!find@{find}}
+\index{find@{find}!IRV@{IRV}}
+\doxysubsubsection{\texorpdfstring{find()}{find()}}
+{\footnotesize\ttfamily int I\+R\+V\+::find (\begin{DoxyParamCaption}\item[{std\+::vector$<$ int $>$}]{arr,  }\item[{int}]{len,  }\item[{int}]{seek }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+A find function that gives index of the integer seek given a vector and length. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em arr} & A vector of type int \\
+\hline
+\mbox{\texttt{ in}}  & {\em len} & Length or the size of the given arr \\
+\hline
+\mbox{\texttt{ in}}  & {\em seek} & A vector of type int \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=281pt]{classIRV_a59b574f6887a401ed1cd8951410ef0f6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classIRV_a206986dfeb126b6155bb132418518076}\label{classIRV_a206986dfeb126b6155bb132418518076}} 
+\index{IRV@{IRV}!FindWinner@{FindWinner}}
+\index{FindWinner@{FindWinner}!IRV@{IRV}}
+\doxysubsubsection{\texorpdfstring{FindWinner()}{FindWinner()}}
+{\footnotesize\ttfamily int I\+R\+V\+::\+Find\+Winner (\begin{DoxyParamCaption}\item[{string}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+A function that given a filename of csv for irv, it finds the winner. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em filename} & a filename of type string that is the csv file. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=321pt]{classIRV_a206986dfeb126b6155bb132418518076_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classIRV_aafc0d53a1f8819c9d71775662d061bf6}\label{classIRV_aafc0d53a1f8819c9d71775662d061bf6}} 
+\index{IRV@{IRV}!GenerateBallots@{GenerateBallots}}
+\index{GenerateBallots@{GenerateBallots}!IRV@{IRV}}
+\doxysubsubsection{\texorpdfstring{GenerateBallots()}{GenerateBallots()}}
+{\footnotesize\ttfamily void I\+R\+V\+::\+Generate\+Ballots (\begin{DoxyParamCaption}\item[{std\+::vector$<$ int $>$}]{vote,  }\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+A function given a ballot (vector vote) and id of said ballot generates a ballot object. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em vote} & vector of the vote i.\+e $<$1,2,3,4$>$ \\
+\hline
+\mbox{\texttt{ in}}  & {\em id} & the id for the said vote (id of the line) \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classIRV_a5175f609ae74f4547f8981dfcbcd717d}\label{classIRV_a5175f609ae74f4547f8981dfcbcd717d}} 
+\index{IRV@{IRV}!GenerateCandidates@{GenerateCandidates}}
+\index{GenerateCandidates@{GenerateCandidates}!IRV@{IRV}}
+\doxysubsubsection{\texorpdfstring{GenerateCandidates()}{GenerateCandidates()}}
+{\footnotesize\ttfamily void I\+R\+V\+::\+Generate\+Candidates (\begin{DoxyParamCaption}\item[{string}]{cand,  }\item[{char}]{p,  }\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+A function given a candidate name and candiate party with id generated a I\+R\+Vcandidate object to be added to candidates vector. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em cand} & is the candidate name \\
+\hline
+\mbox{\texttt{ in}}  & {\em p} & is the party of said candidate \\
+\hline
+\mbox{\texttt{ in}}  & {\em id} & id of the said candidate \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classIRV_a190cbcd9b67a6ec2bdf70db8fc6def64}\label{classIRV_a190cbcd9b67a6ec2bdf70db8fc6def64}} 
+\index{IRV@{IRV}!GetWinner@{GetWinner}}
+\index{GetWinner@{GetWinner}!IRV@{IRV}}
+\doxysubsubsection{\texorpdfstring{GetWinner()}{GetWinner()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classIRVCandidate}{I\+R\+V\+Candidate}} I\+R\+V\+::\+Get\+Winner (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+A function that returns the candidate object that is the winner. 
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=318pt]{classIRV_a190cbcd9b67a6ec2bdf70db8fc6def64_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classIRV_ad5b4e39fc74d837c03da793a289d2bd2}\label{classIRV_ad5b4e39fc74d837c03da793a289d2bd2}} 
+\index{IRV@{IRV}!RedistributeVotes@{RedistributeVotes}}
+\index{RedistributeVotes@{RedistributeVotes}!IRV@{IRV}}
+\doxysubsubsection{\texorpdfstring{RedistributeVotes()}{RedistributeVotes()}}
+{\footnotesize\ttfamily void I\+R\+V\+::\+Redistribute\+Votes (\begin{DoxyParamCaption}\item[{int}]{candidate\+\_\+id\+\_\+remove }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+A function that redistributes the votes of the eleminated candidate given a the eliminated candidate id. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em candidate\+\_\+id\+\_\+remove} & the id of the candidate that was eliminated or the least voted candidate. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{classIRV_ad5b4e39fc74d837c03da793a289d2bd2_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classIRV_a912ea1e8e327b98b626ca48c19f7c406}\label{classIRV_a912ea1e8e327b98b626ca48c19f7c406}} 
+\index{IRV@{IRV}!SumVector@{SumVector}}
+\index{SumVector@{SumVector}!IRV@{IRV}}
+\doxysubsubsection{\texorpdfstring{SumVector()}{SumVector()}}
+{\footnotesize\ttfamily int I\+R\+V\+::\+Sum\+Vector (\begin{DoxyParamCaption}\item[{std\+::vector$<$ int $>$}]{vec }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+A function that returns the sum of all elements of a vector. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em vec} & A vector of type int \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classIRV_a7710af85c899fdb3be8a00836932380b}\label{classIRV_a7710af85c899fdb3be8a00836932380b}} 
+\index{IRV@{IRV}!TieBreaker@{TieBreaker}}
+\index{TieBreaker@{TieBreaker}!IRV@{IRV}}
+\doxysubsubsection{\texorpdfstring{TieBreaker()}{TieBreaker()}}
+{\footnotesize\ttfamily int I\+R\+V\+::\+Tie\+Breaker (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+A function that resolved any ties if there are any during the process of irv election. 
+
+\mbox{\Hypertarget{classIRV_a9fd03f3a3f5c1e743cc8f0b7a909739d}\label{classIRV_a9fd03f3a3f5c1e743cc8f0b7a909739d}} 
+\index{IRV@{IRV}!TransformVote@{TransformVote}}
+\index{TransformVote@{TransformVote}!IRV@{IRV}}
+\doxysubsubsection{\texorpdfstring{TransformVote()}{TransformVote()}}
+{\footnotesize\ttfamily std\+::vector$<$ int $>$ I\+R\+V\+::\+Transform\+Vote (\begin{DoxyParamCaption}\item[{std\+::vector$<$ int $>$}]{vote }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+A function given a vote vector transforms it and returns the transformed vector. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em vote} & a vector containing the votes \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=281pt]{classIRV_a9fd03f3a3f5c1e743cc8f0b7a909739d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classIRV_aa8ae8f8f28bf1cbb40d3fbb46317fbbf}\label{classIRV_aa8ae8f8f28bf1cbb40d3fbb46317fbbf}} 
+\index{IRV@{IRV}!UpdateCandidates@{UpdateCandidates}}
+\index{UpdateCandidates@{UpdateCandidates}!IRV@{IRV}}
+\doxysubsubsection{\texorpdfstring{UpdateCandidates()}{UpdateCandidates()}}
+{\footnotesize\ttfamily void I\+R\+V\+::\+Update\+Candidates (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+A function that updates each ballots for each of thier respective candidates. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/mnt/c/\+Users/\+Joel/\+School/5801/repo-\/\+Team17/\+Project1/src/\mbox{\hyperlink{irv_8cpp}{irv.\+cpp}}\end{DoxyCompactItemize}

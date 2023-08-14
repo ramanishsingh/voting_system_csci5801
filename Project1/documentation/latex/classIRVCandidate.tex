@@ -1,0 +1,148 @@
+\hypertarget{classIRVCandidate}{}\doxysection{I\+R\+V\+Candidate Class Reference}
+\label{classIRVCandidate}\index{IRVCandidate@{IRVCandidate}}
+
+
+the main class for \mbox{\hyperlink{classIRVCandidate}{I\+R\+V\+Candidate}}  
+
+
+
+
+Inheritance diagram for I\+R\+V\+Candidate\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=193pt]{classIRVCandidate__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for I\+R\+V\+Candidate\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=193pt]{classIRVCandidate__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classIRVCandidate_a7b027f97dd20e4e191719ccc1482a03b}{I\+R\+V\+Candidate}} (std\+::string person, char part, int id)
+\begin{DoxyCompactList}\small\item\em Constructor for an \mbox{\hyperlink{classIRV}{I\+RV}} candidate with a name and party and id. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classIRVCandidate_a1a574e2a27625dfa157ca82a95e9e9d5}\label{classIRVCandidate_a1a574e2a27625dfa157ca82a95e9e9d5}} 
+void \mbox{\hyperlink{classIRVCandidate_a1a574e2a27625dfa157ca82a95e9e9d5}{Eliminate}} ()
+\begin{DoxyCompactList}\small\item\em A function that eliminates candidate by set still\+In\+Race to false. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classIRVCandidate_a26e0e5d9d7709cde24b714d4d220addc}{Set\+My\+Ballots}} (std\+::vector$<$ int $>$ a)
+\begin{DoxyCompactList}\small\item\em A function that given vector of ballots sets the ballots for given candidate. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classIRVCandidate_a792a251c4b0c6e7e564a0a1b910e1ec6}{Check\+In\+Race}} ()
+\begin{DoxyCompactList}\small\item\em A function checks to see that the candidate is still in the race. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classIRVCandidate_a46ea01289413693ade39ea8e6fdda6e9}{Get\+Num\+Votes}} ()
+\begin{DoxyCompactList}\small\item\em A function that returns the number of votes the candidate has according to the sum of the ballots that they have where they are the preferred candidate. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classIRVCandidate_a4ea6bc756572b9d5f0e07d3aca5be8f8}{Get\+Candidate\+ID}} ()
+\begin{DoxyCompactList}\small\item\em A function that returns the candidate\+ID. \end{DoxyCompactList}\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{classIRVCandidate_a0e7b834dafb042f91018f29b536d2043}{Get\+My\+Ballots}} ()
+\begin{DoxyCompactList}\small\item\em A function that returns a vector of the ballots for respective candidate. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+the main class for \mbox{\hyperlink{classIRVCandidate}{I\+R\+V\+Candidate}} 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classIRVCandidate_a7b027f97dd20e4e191719ccc1482a03b}\label{classIRVCandidate_a7b027f97dd20e4e191719ccc1482a03b}} 
+\index{IRVCandidate@{IRVCandidate}!IRVCandidate@{IRVCandidate}}
+\index{IRVCandidate@{IRVCandidate}!IRVCandidate@{IRVCandidate}}
+\doxysubsubsection{\texorpdfstring{IRVCandidate()}{IRVCandidate()}}
+{\footnotesize\ttfamily I\+R\+V\+Candidate\+::\+I\+R\+V\+Candidate (\begin{DoxyParamCaption}\item[{std\+::string}]{person,  }\item[{char}]{part,  }\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructor for an \mbox{\hyperlink{classIRV}{I\+RV}} candidate with a name and party and id. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em person} & Name of candidate \\
+\hline
+\mbox{\texttt{ in}}  & {\em part} & Party of candidate \\
+\hline
+\mbox{\texttt{ in}}  & {\em id} & id of the candidate \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classIRVCandidate_a792a251c4b0c6e7e564a0a1b910e1ec6}\label{classIRVCandidate_a792a251c4b0c6e7e564a0a1b910e1ec6}} 
+\index{IRVCandidate@{IRVCandidate}!CheckInRace@{CheckInRace}}
+\index{CheckInRace@{CheckInRace}!IRVCandidate@{IRVCandidate}}
+\doxysubsubsection{\texorpdfstring{CheckInRace()}{CheckInRace()}}
+{\footnotesize\ttfamily bool I\+R\+V\+Candidate\+::\+Check\+In\+Race (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+A function checks to see that the candidate is still in the race. 
+
+\mbox{\Hypertarget{classIRVCandidate_a4ea6bc756572b9d5f0e07d3aca5be8f8}\label{classIRVCandidate_a4ea6bc756572b9d5f0e07d3aca5be8f8}} 
+\index{IRVCandidate@{IRVCandidate}!GetCandidateID@{GetCandidateID}}
+\index{GetCandidateID@{GetCandidateID}!IRVCandidate@{IRVCandidate}}
+\doxysubsubsection{\texorpdfstring{GetCandidateID()}{GetCandidateID()}}
+{\footnotesize\ttfamily int I\+R\+V\+Candidate\+::\+Get\+Candidate\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+A function that returns the candidate\+ID. 
+
+\mbox{\Hypertarget{classIRVCandidate_a0e7b834dafb042f91018f29b536d2043}\label{classIRVCandidate_a0e7b834dafb042f91018f29b536d2043}} 
+\index{IRVCandidate@{IRVCandidate}!GetMyBallots@{GetMyBallots}}
+\index{GetMyBallots@{GetMyBallots}!IRVCandidate@{IRVCandidate}}
+\doxysubsubsection{\texorpdfstring{GetMyBallots()}{GetMyBallots()}}
+{\footnotesize\ttfamily std\+::vector$<$int$>$ I\+R\+V\+Candidate\+::\+Get\+My\+Ballots (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+A function that returns a vector of the ballots for respective candidate. 
+
+\mbox{\Hypertarget{classIRVCandidate_a46ea01289413693ade39ea8e6fdda6e9}\label{classIRVCandidate_a46ea01289413693ade39ea8e6fdda6e9}} 
+\index{IRVCandidate@{IRVCandidate}!GetNumVotes@{GetNumVotes}}
+\index{GetNumVotes@{GetNumVotes}!IRVCandidate@{IRVCandidate}}
+\doxysubsubsection{\texorpdfstring{GetNumVotes()}{GetNumVotes()}}
+{\footnotesize\ttfamily int I\+R\+V\+Candidate\+::\+Get\+Num\+Votes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+A function that returns the number of votes the candidate has according to the sum of the ballots that they have where they are the preferred candidate. 
+
+
+
+Implements \mbox{\hyperlink{classCandidate_ac35bb19dc653286aa4a8fd3d0051ab93}{Candidate}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classIRVCandidate_a46ea01289413693ade39ea8e6fdda6e9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classIRVCandidate_a26e0e5d9d7709cde24b714d4d220addc}\label{classIRVCandidate_a26e0e5d9d7709cde24b714d4d220addc}} 
+\index{IRVCandidate@{IRVCandidate}!SetMyBallots@{SetMyBallots}}
+\index{SetMyBallots@{SetMyBallots}!IRVCandidate@{IRVCandidate}}
+\doxysubsubsection{\texorpdfstring{SetMyBallots()}{SetMyBallots()}}
+{\footnotesize\ttfamily void I\+R\+V\+Candidate\+::\+Set\+My\+Ballots (\begin{DoxyParamCaption}\item[{std\+::vector$<$ int $>$}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+A function that given vector of ballots sets the ballots for given candidate. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em a} & a vector of the ballot for respective candidate \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/mnt/c/\+Users/\+Joel/\+School/5801/repo-\/\+Team17/\+Project1/src/\mbox{\hyperlink{irv__candidate_8cpp}{irv\+\_\+candidate.\+cpp}}\end{DoxyCompactItemize}

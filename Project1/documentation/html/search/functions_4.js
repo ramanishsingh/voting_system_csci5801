@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['generateballots_116',['GenerateBallots',['../classIRV.html#aafc0d53a1f8819c9d71775662d061bf6',1,'IRV']]],
+  ['generatecandidates_117',['GenerateCandidates',['../classIRV.html#a5175f609ae74f4547f8981dfcbcd717d',1,'IRV']]],
+  ['getcandidateid_118',['GetCandidateID',['../classIRVCandidate.html#a4ea6bc756572b9d5f0e07d3aca5be8f8',1,'IRVCandidate']]],
+  ['getcurpartyrank_119',['GetCurPartyRank',['../classOPLVCandidate.html#a082cdad0443ee91dc62010d4bf2d21c4',1,'OPLVCandidate']]],
+  ['getcurrentpref_120',['GetCurrentPref',['../classIRVBallot.html#aa5695e52c197a6dcf6b33ae22d399110',1,'IRVBallot']]],
+  ['getindex_121',['GetIndex',['../classIRVBallot.html#af5b134621f10d3e2bd4d621cb1c95980',1,'IRVBallot']]],
+  ['getmyballots_122',['GetMyBallots',['../classIRVCandidate.html#a0e7b834dafb042f91018f29b536d2043',1,'IRVCandidate']]],
+  ['getname_123',['GetName',['../classCandidate.html#ad97f7ac3672bab8b72b7b7755fa10e0e',1,'Candidate::GetName()'],['../classOPLVParty.html#a25c4e9a1b7bc1e0fed735e99f69827b5',1,'OPLVParty::GetName()']]],
+  ['getnumcandidates_124',['GetNumCandidates',['../classOPLVParty.html#a5a9945c2ec866948741cc1b5be9255af',1,'OPLVParty']]],
+  ['getnumvotes_125',['GetNumVotes',['../classCandidate.html#ac35bb19dc653286aa4a8fd3d0051ab93',1,'Candidate::GetNumVotes()'],['../classIRVCandidate.html#a46ea01289413693ade39ea8e6fdda6e9',1,'IRVCandidate::GetNumVotes()'],['../classOPLVCandidate.html#aa7d8cd4c30f64b13c58622d827f47db2',1,'OPLVCandidate::GetNumVotes()']]],
+  ['getparties_126',['GetParties',['../classOPLV.html#a0aa1f878006073ce81d1dad0d1a9f702',1,'OPLV']]],
+  ['getparty_127',['GetParty',['../classCandidate.html#ad3f84c5c2bb86b3fe0eaca0d249f3315',1,'Candidate']]],
+  ['getremainingvotes_128',['GetRemainingVotes',['../classOPLVParty.html#a367bc4c3edd6ed8bf996056e4db443bc',1,'OPLVParty']]],
+  ['getseats_129',['GetSeats',['../classOPLVParty.html#a7a2237e494b1e9904aefac8af8fef203',1,'OPLVParty']]],
+  ['gettotalballots_130',['GetTotalBallots',['../classElection.html#aaefebcfcf7f8b3d389c2f47754a4d3df',1,'Election']]],
+  ['gettotalcandidates_131',['GetTotalCandidates',['../classElection.html#afcc43d08161f81adfe38d0e7f7231a1b',1,'Election']]],
+  ['gettransformedvote_132',['GetTransformedVote',['../classIRVBallot.html#ab4929859e5ad25a4eebcdbfa568b8c54',1,'IRVBallot']]],
+  ['gettypeofelection_133',['GetTypeofElection',['../classElection.html#a9a00cc34b7cedda8efc85be574381230',1,'Election']]],
+  ['getvoternum_134',['GetVoterNum',['../classBallot.html#a4395f82b3ebc26c942909b79113a1e19',1,'Ballot']]],
+  ['getvotesize_135',['GetVoteSize',['../classIRVBallot.html#aa2da9ba27d98a736ab9e90ac0af910c8',1,'IRVBallot']]],
+  ['getwinner_136',['GetWinner',['../classIRV.html#a190cbcd9b67a6ec2bdf70db8fc6def64',1,'IRV']]],
+  ['getwinners_137',['GetWinners',['../classOPLV.html#a785e5a3fc31a07c57a3ab1725f984233',1,'OPLV']]],
+  ['getwonseat_138',['GetWonSeat',['../classOPLVCandidate.html#a7ead8b882620701fb45796b1e665e7ea',1,'OPLVCandidate']]]
+];

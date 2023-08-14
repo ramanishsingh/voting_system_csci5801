@@ -1,0 +1,189 @@
+\hypertarget{classPO}{}\doxysection{PO Class Reference}
+\label{classPO}\index{PO@{PO}}
+
+
+The main class for a \mbox{\hyperlink{classPO}{PO}} election.  
+
+
+
+
+Inheritance diagram for PO\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=211pt]{classPO__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for PO\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=230pt]{classPO__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classPO_ad3b988ba7089148c9dfe5dfed3c73cfc}{PO}} (\mbox{\hyperlink{classAudit}{Audit}} audit\+\_\+)
+\begin{DoxyCompactList}\small\item\em Constructor for a \mbox{\hyperlink{classPO}{PO}} election with an audit object. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classPO_ae90574804c403bd79218f1bb21dc7351}{Find\+Winner}} (std\+::vector$<$ string $>$ \&files)
+\begin{DoxyCompactList}\small\item\em Function to calculate the winner of the \mbox{\hyperlink{classPO}{PO}} election. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classPO_af0d2e07a60a8f9c18009a019e8777370}{Tie\+Breaker}} ()
+\begin{DoxyCompactList}\small\item\em A function that resolved any ties if there are any during the process of po election. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classPO_a3dfb2ad83abfa3e129b8581125725618}{Add\+Candidate}} (\mbox{\hyperlink{classPOCandidate}{P\+O\+Candidate}} $\ast$newcandidate)
+\begin{DoxyCompactList}\small\item\em Add a new candidate to the election. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classPO_ade3c43adff04819440981521ebfba6a6}{Can\+Percent}} (\mbox{\hyperlink{classPOCandidate}{P\+O\+Candidate}} cand, int ttl\+Num\+Votes)
+\begin{DoxyCompactList}\small\item\em A function that calculates the percentage of votes given a candidate object. \end{DoxyCompactList}\item 
+std\+::vector$<$ \mbox{\hyperlink{classPOCandidate}{P\+O\+Candidate}} $\ast$ $>$ \mbox{\hyperlink{classPO_acad6ef4eb03bc9fadd4668a6c9770869}{Get\+Candidates}} ()
+\begin{DoxyCompactList}\small\item\em Get all candidates in \mbox{\hyperlink{classPO}{PO}} election. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classPOCandidate}{P\+O\+Candidate}} \mbox{\hyperlink{classPO_a82d44f3277de4b1d4efc9210ca65c869}{Get\+Winner}} ()
+\begin{DoxyCompactList}\small\item\em Get winning candidate in \mbox{\hyperlink{classPO}{PO}} election. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classPO_adaeda4502e622cb99c4f0879c142c770}{Media\+File}} (string filename)
+\begin{DoxyCompactList}\small\item\em Create media summary file. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+The main class for a \mbox{\hyperlink{classPO}{PO}} election. 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classPO_ad3b988ba7089148c9dfe5dfed3c73cfc}\label{classPO_ad3b988ba7089148c9dfe5dfed3c73cfc}} 
+\index{PO@{PO}!PO@{PO}}
+\index{PO@{PO}!PO@{PO}}
+\doxysubsubsection{\texorpdfstring{PO()}{PO()}}
+{\footnotesize\ttfamily P\+O\+::\+PO (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classAudit}{Audit}}}]{audit\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructor for a \mbox{\hyperlink{classPO}{PO}} election with an audit object. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em audit\+\_\+} & \mbox{\hyperlink{classAudit}{Audit}} object \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classPO_a3dfb2ad83abfa3e129b8581125725618}\label{classPO_a3dfb2ad83abfa3e129b8581125725618}} 
+\index{PO@{PO}!AddCandidate@{AddCandidate}}
+\index{AddCandidate@{AddCandidate}!PO@{PO}}
+\doxysubsubsection{\texorpdfstring{AddCandidate()}{AddCandidate()}}
+{\footnotesize\ttfamily void P\+O\+::\+Add\+Candidate (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classPOCandidate}{P\+O\+Candidate}} $\ast$}]{newcandidate }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Add a new candidate to the election. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em newcandidate} & New candidate \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classPO_a3dfb2ad83abfa3e129b8581125725618_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPO_ade3c43adff04819440981521ebfba6a6}\label{classPO_ade3c43adff04819440981521ebfba6a6}} 
+\index{PO@{PO}!CanPercent@{CanPercent}}
+\index{CanPercent@{CanPercent}!PO@{PO}}
+\doxysubsubsection{\texorpdfstring{CanPercent()}{CanPercent()}}
+{\footnotesize\ttfamily int P\+O\+::\+Can\+Percent (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classPOCandidate}{P\+O\+Candidate}}}]{cand,  }\item[{int}]{ttl\+Num\+Votes }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+A function that calculates the percentage of votes given a candidate object. 
+
+\mbox{\Hypertarget{classPO_ae90574804c403bd79218f1bb21dc7351}\label{classPO_ae90574804c403bd79218f1bb21dc7351}} 
+\index{PO@{PO}!FindWinner@{FindWinner}}
+\index{FindWinner@{FindWinner}!PO@{PO}}
+\doxysubsubsection{\texorpdfstring{FindWinner()}{FindWinner()}}
+{\footnotesize\ttfamily int P\+O\+::\+Find\+Winner (\begin{DoxyParamCaption}\item[{std\+::vector$<$ string $>$ \&}]{files }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Function to calculate the winner of the \mbox{\hyperlink{classPO}{PO}} election. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em filename} & Name of csv file \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=311pt]{classPO_ae90574804c403bd79218f1bb21dc7351_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=319pt]{classPO_ae90574804c403bd79218f1bb21dc7351_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPO_acad6ef4eb03bc9fadd4668a6c9770869}\label{classPO_acad6ef4eb03bc9fadd4668a6c9770869}} 
+\index{PO@{PO}!GetCandidates@{GetCandidates}}
+\index{GetCandidates@{GetCandidates}!PO@{PO}}
+\doxysubsubsection{\texorpdfstring{GetCandidates()}{GetCandidates()}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{classPOCandidate}{P\+O\+Candidate}} $\ast$$>$ P\+O\+::\+Get\+Candidates (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Get all candidates in \mbox{\hyperlink{classPO}{PO}} election. 
+
+\mbox{\Hypertarget{classPO_a82d44f3277de4b1d4efc9210ca65c869}\label{classPO_a82d44f3277de4b1d4efc9210ca65c869}} 
+\index{PO@{PO}!GetWinner@{GetWinner}}
+\index{GetWinner@{GetWinner}!PO@{PO}}
+\doxysubsubsection{\texorpdfstring{GetWinner()}{GetWinner()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classPOCandidate}{P\+O\+Candidate}} P\+O\+::\+Get\+Winner (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Get winning candidate in \mbox{\hyperlink{classPO}{PO}} election. 
+
+\mbox{\Hypertarget{classPO_adaeda4502e622cb99c4f0879c142c770}\label{classPO_adaeda4502e622cb99c4f0879c142c770}} 
+\index{PO@{PO}!MediaFile@{MediaFile}}
+\index{MediaFile@{MediaFile}!PO@{PO}}
+\doxysubsubsection{\texorpdfstring{MediaFile()}{MediaFile()}}
+{\footnotesize\ttfamily void P\+O\+::\+Media\+File (\begin{DoxyParamCaption}\item[{string}]{filename }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Create media summary file. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em filename} & to create media summary file and write results to it \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=311pt]{classPO_adaeda4502e622cb99c4f0879c142c770_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classPO_af0d2e07a60a8f9c18009a019e8777370}\label{classPO_af0d2e07a60a8f9c18009a019e8777370}} 
+\index{PO@{PO}!TieBreaker@{TieBreaker}}
+\index{TieBreaker@{TieBreaker}!PO@{PO}}
+\doxysubsubsection{\texorpdfstring{TieBreaker()}{TieBreaker()}}
+{\footnotesize\ttfamily int P\+O\+::\+Tie\+Breaker (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+A function that resolved any ties if there are any during the process of po election. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/mnt/c/\+Users/\+Joel/\+School/5801/repo-\/\+Team17/\+Project2/src/\mbox{\hyperlink{po_8cpp}{po.\+cpp}}\end{DoxyCompactItemize}

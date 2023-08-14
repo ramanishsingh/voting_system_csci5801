@@ -1,0 +1,6 @@
+<map id="IRV::FindWinner" name="IRV::FindWinner">
+<area shape="rect" id="node1" title="A function that given a filename of csv for irv, it finds the winner." alt="" coords="5,56,129,83"/>
+<area shape="rect" id="node2" href="$classAudit.html#a8ad2dd96d5b9d8f599564e429ae7bfd3" title="Function auditPrint that given a string prints to a file obj.auditfile." alt="" coords="206,5,333,32"/>
+<area shape="rect" id="node3" href="$classIRV.html#aafc0d53a1f8819c9d71775662d061bf6" title="A function given a ballot (vector vote) and id of said ballot generates a ballot object." alt="" coords="191,56,347,83"/>
+<area shape="rect" id="node4" href="$classIRV.html#a5175f609ae74f4547f8981dfcbcd717d" title="A function given a candidate name and candiate party with id generated a IRVcandidate object to be ad..." alt="" coords="177,107,361,133"/>
+</map>

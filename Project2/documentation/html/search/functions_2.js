@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['eliminate_126',['Eliminate',['../classIRVCandidate.html#a1a574e2a27625dfa157ca82a95e9e9d5',1,'IRVCandidate']]]
+];
